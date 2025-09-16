@@ -186,3 +186,8 @@ This project is licensed under the **MIT License**. See the [LICENSE](LICENSE) f
 
 ---
 
+```
+
+If you want, I can generate a *customized README* by reading inside your actual `config.py`, `data_loader.py`, etc., including specific parameters you used, so the README matches exactly. Do you want me to do that?
+::contentReference[oaicite:0]{index=0}
+```
