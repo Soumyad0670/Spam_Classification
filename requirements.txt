@@ -1,0 +1,9 @@
+Algorithms:
+Logistic_Regression
+
+Libraries:
+numpy
+pandas
+scikit-learn
+matplotlib
+seaborn
