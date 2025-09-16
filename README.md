@@ -43,23 +43,20 @@ Ideal for learning ML pipelines, text preprocessing, and as a starter for more c
 
 ---
 
-## Project Structure
+### Project Structure
 
 Here’s what files/folders are in the repo and their purpose:
 
-```
-
+```bash
 Spam\_Classification/
-├── **main.py**            # Orchestrates the full pipeline: from data to model to evaluation
-├── **config.py**          # All configuration variables: model params, data split, vectorizer settings, etc.
-├── **data\_loader.py**     # Loading, cleaning, preprocessing of data; splitting into train & test sets
-├── **model\_trainer.py**   # Building, training, evaluating the classifier
-├── **visualizer.py**      # Functions for plotting metrics (confusion matrix, feature importance, etc.)
-├── **requirements.txt**   # Python libraries / dependencies
-└── **README.md**          # This documentation
-
-````
-
+├── main.py             # Orchestrates the full pipeline: from data to model to evaluation
+├── config.py           # All configuration variables: model params, data split, vectorizer settings, etc.
+├── data\_loader.py     # Loading, cleaning, preprocessing of data; splitting into train & test sets
+├── model\_trainer.py   # Building, training, evaluating the classifier
+├── visualizer.py       # Functions for plotting metrics (confusion matrix, feature importance, etc.)
+├── requirements.txt    # Python libraries / dependencies
+└── README.md           # This documentation
+```
 ---
 
 ## Setup & Installation
@@ -68,7 +65,7 @@ Spam\_Classification/
    ```bash
    git clone https://github.com/Soumyad0670/Spam_Classification.git
    cd Spam_Classification
-````
+   ```
 
 2. **Install dependencies**
    It’s recommended to use a virtual environment (venv / conda)
@@ -186,8 +183,3 @@ This project is licensed under the **MIT License**. See the [LICENSE](LICENSE) f
 
 ---
 
-```
-
-If you want, I can generate a *customized README* by reading inside your actual `config.py`, `data_loader.py`, etc., including specific parameters you used, so the README matches exactly. Do you want me to do that?
-::contentReference[oaicite:0]{index=0}
-```
