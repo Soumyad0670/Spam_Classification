@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Spam Classifier</title>
+</head>
+<body>
+    <h2>Spam Classifier</h2>
+    <input type="text" id="message" placeholder="Type your message">
+    <button onclick="classify()">Check Spam</button>
+    <div id="result"></div>
+    <script>
+      async function classify() {
+        let message = document.getElementById('message').value;
+        let resultDiv = document.getElementById('result');
+        resultDiv.innerText = "Classifying...";
+        let res = await fetch('http://localhost:8000/predict', {
+          method: 'POST',
+          headers: {'Content-Type': 'application/json'},
+          body: JSON.stringify({message})
+        });
+        let data = await res.json();
+        resultDiv.innerText = data.spam ? "SPAM" : "Not Spam";
+      }
+    </script>
+</body>
+</html>

@@ -1,0 +1,300 @@
+2025-09-21 15:19:41,620 - __main__ - INFO - Starting Spam Email Classification Pipeline
+2025-09-21 15:19:41,621 - __main__ - INFO - Step 1: Loading and preprocessing data...
+2025-09-21 15:19:42,666 - __main__ - ERROR - Pipeline failed: The least populated class in y has only 1 member, which is too few. The minimum number of groups for any class cannot be less than 2.
+Traceback (most recent call last):
+  File "d:\Code\Spam_Classification\main.py", line 148, in main
+    X_train, X_test, y_train, y_test = data_loader.prepare_data()
+                                       ~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "d:\Code\Spam_Classification\data_loader.py", line 157, in prepare_data
+    X_train, X_test, y_train, y_test = train_test_split(
+                                       ~~~~~~~~~~~~~~~~^
+        X, y,
+        ^^^^^
+    ...<2 lines>...
+        stratify=y  # Maintain class distribution
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\KIIT\AppData\Local\Programs\Python\Python313\Lib\site-packages\sklearn\utils\_param_validation.py", line 216, in wrapper
+    return func(*args, **kwargs)
+  File "C:\Users\KIIT\AppData\Local\Programs\Python\Python313\Lib\site-packages\sklearn\model_selection\_split.py", line 2872, in train_test_split
+    train, test = next(cv.split(X=arrays[0], y=stratify))
+                  ~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\KIIT\AppData\Local\Programs\Python\Python313\Lib\site-packages\sklearn\model_selection\_split.py", line 1909, in split
+    for train, test in self._iter_indices(X, y, groups):
+                       ~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^
+  File "C:\Users\KIIT\AppData\Local\Programs\Python\Python313\Lib\site-packages\sklearn\model_selection\_split.py", line 2318, in _iter_indices
+    raise ValueError(
+    ...<4 lines>...
+    )
+ValueError: The least populated class in y has only 1 member, which is too few. The minimum number of groups for any class cannot be less than 2.
+2025-09-21 15:20:10,567 - __main__ - INFO - Starting Spam Email Classification Pipeline
+2025-09-21 15:20:10,580 - __main__ - INFO - Step 1: Loading and preprocessing data...
+2025-09-21 15:20:11,580 - __main__ - ERROR - Pipeline failed: The least populated class in y has only 1 member, which is too few. The minimum number of groups for any class cannot be less than 2.
+Traceback (most recent call last):
+  File "d:\Code\Spam_Classification\main.py", line 149, in main
+    X_train, X_test, y_train, y_test = data_loader.prepare_data()
+                                       ~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "d:\Code\Spam_Classification\data_loader.py", line 157, in prepare_data
+    X_train, X_test, y_train, y_test = train_test_split(
+                                       ~~~~~~~~~~~~~~~~^
+        X, y,
+        ^^^^^
+    ...<2 lines>...
+        stratify=y  # Maintain class distribution
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\KIIT\AppData\Local\Programs\Python\Python313\Lib\site-packages\sklearn\utils\_param_validation.py", line 216, in wrapper
+    return func(*args, **kwargs)
+  File "C:\Users\KIIT\AppData\Local\Programs\Python\Python313\Lib\site-packages\sklearn\model_selection\_split.py", line 2872, in train_test_split
+    train, test = next(cv.split(X=arrays[0], y=stratify))
+                  ~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\KIIT\AppData\Local\Programs\Python\Python313\Lib\site-packages\sklearn\model_selection\_split.py", line 1909, in split
+    for train, test in self._iter_indices(X, y, groups):
+                       ~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^
+  File "C:\Users\KIIT\AppData\Local\Programs\Python\Python313\Lib\site-packages\sklearn\model_selection\_split.py", line 2318, in _iter_indices
+    raise ValueError(
+    ...<4 lines>...
+    )
+ValueError: The least populated class in y has only 1 member, which is too few. The minimum number of groups for any class cannot be less than 2.
+2025-09-21 15:20:30,935 - __main__ - INFO - Starting Spam Email Classification Pipeline
+2025-09-21 15:20:30,936 - __main__ - INFO - Step 1: Loading and preprocessing data...
+2025-09-21 15:20:31,926 - __main__ - ERROR - Pipeline failed: The least populated class in y has only 1 member, which is too few. The minimum number of groups for any class cannot be less than 2.
+Traceback (most recent call last):
+  File "d:\Code\Spam_Classification\main.py", line 149, in main
+    X_train, X_test, y_train, y_test = data_loader.prepare_data()
+                                       ~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "d:\Code\Spam_Classification\data_loader.py", line 157, in prepare_data
+    X_train, X_test, y_train, y_test = train_test_split(
+                                       ~~~~~~~~~~~~~~~~^
+        X, y,
+        ^^^^^
+    ...<2 lines>...
+        stratify=y  # Maintain class distribution
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\KIIT\AppData\Local\Programs\Python\Python313\Lib\site-packages\sklearn\utils\_param_validation.py", line 216, in wrapper
+    return func(*args, **kwargs)
+  File "C:\Users\KIIT\AppData\Local\Programs\Python\Python313\Lib\site-packages\sklearn\model_selection\_split.py", line 2872, in train_test_split
+    train, test = next(cv.split(X=arrays[0], y=stratify))
+                  ~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\KIIT\AppData\Local\Programs\Python\Python313\Lib\site-packages\sklearn\model_selection\_split.py", line 1909, in split
+    for train, test in self._iter_indices(X, y, groups):
+                       ~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^
+  File "C:\Users\KIIT\AppData\Local\Programs\Python\Python313\Lib\site-packages\sklearn\model_selection\_split.py", line 2318, in _iter_indices
+    raise ValueError(
+    ...<4 lines>...
+    )
+ValueError: The least populated class in y has only 1 member, which is too few. The minimum number of groups for any class cannot be less than 2.
+2025-09-21 15:21:15,520 - __main__ - INFO - Starting Spam Email Classification Pipeline
+2025-09-21 15:21:15,521 - __main__ - INFO - Step 1: Loading and preprocessing data...
+2025-09-21 15:21:16,447 - __main__ - ERROR - Pipeline failed: The least populated class in y has only 1 member, which is too few. The minimum number of groups for any class cannot be less than 2.
+Traceback (most recent call last):
+  File "d:\Code\Spam_Classification\main.py", line 147, in main
+    X_train, X_test, y_train, y_test = data_loader.prepare_data()
+                                       ~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "d:\Code\Spam_Classification\data_loader.py", line 157, in prepare_data
+    X_train, X_test, y_train, y_test = train_test_split(
+                                       ~~~~~~~~~~~~~~~~^
+        X, y,
+        ^^^^^
+    ...<2 lines>...
+        stratify=y  # Maintain class distribution
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\KIIT\AppData\Local\Programs\Python\Python313\Lib\site-packages\sklearn\utils\_param_validation.py", line 216, in wrapper
+    return func(*args, **kwargs)
+  File "C:\Users\KIIT\AppData\Local\Programs\Python\Python313\Lib\site-packages\sklearn\model_selection\_split.py", line 2872, in train_test_split
+    train, test = next(cv.split(X=arrays[0], y=stratify))
+                  ~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\KIIT\AppData\Local\Programs\Python\Python313\Lib\site-packages\sklearn\model_selection\_split.py", line 1909, in split
+    for train, test in self._iter_indices(X, y, groups):
+                       ~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^
+  File "C:\Users\KIIT\AppData\Local\Programs\Python\Python313\Lib\site-packages\sklearn\model_selection\_split.py", line 2318, in _iter_indices
+    raise ValueError(
+    ...<4 lines>...
+    )
+ValueError: The least populated class in y has only 1 member, which is too few. The minimum number of groups for any class cannot be less than 2.
+2025-09-21 15:22:53,688 - __main__ - INFO - Starting Spam Email Classification Pipeline
+2025-09-21 15:22:53,689 - __main__ - INFO - Step 1: Loading and preprocessing data...
+2025-09-21 15:22:54,680 - __main__ - ERROR - Pipeline failed: The least populated class in y has only 1 member, which is too few. The minimum number of groups for any class cannot be less than 2.
+Traceback (most recent call last):
+  File "d:\Code\Spam_Classification\main.py", line 147, in main
+    X_train, X_test, y_train, y_test = data_loader.prepare_data()
+                                       ~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "d:\Code\Spam_Classification\data_loader.py", line 157, in prepare_data
+    X_train, X_test, y_train, y_test = train_test_split(
+                                       ~~~~~~~~~~~~~~~~^
+        X, y,
+        ^^^^^
+    ...<2 lines>...
+        stratify=y  # Maintain class distribution
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\KIIT\AppData\Local\Programs\Python\Python313\Lib\site-packages\sklearn\utils\_param_validation.py", line 216, in wrapper
+    return func(*args, **kwargs)
+  File "C:\Users\KIIT\AppData\Local\Programs\Python\Python313\Lib\site-packages\sklearn\model_selection\_split.py", line 2872, in train_test_split
+    train, test = next(cv.split(X=arrays[0], y=stratify))
+                  ~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\KIIT\AppData\Local\Programs\Python\Python313\Lib\site-packages\sklearn\model_selection\_split.py", line 1909, in split
+    for train, test in self._iter_indices(X, y, groups):
+                       ~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^
+  File "C:\Users\KIIT\AppData\Local\Programs\Python\Python313\Lib\site-packages\sklearn\model_selection\_split.py", line 2318, in _iter_indices
+    raise ValueError(
+    ...<4 lines>...
+    )
+ValueError: The least populated class in y has only 1 member, which is too few. The minimum number of groups for any class cannot be less than 2.
+2025-09-21 15:24:39,201 - __main__ - INFO - Starting Spam Email Classification Pipeline
+2025-09-21 15:24:39,202 - __main__ - INFO - Step 1: Loading and preprocessing data...
+2025-09-21 15:24:40,246 - __main__ - ERROR - Pipeline failed: The least populated class in y has only 1 member, which is too few. The minimum number of groups for any class cannot be less than 2.
+Traceback (most recent call last):
+  File "d:\Code\Spam_Classification\main.py", line 144, in main
+    X_train, X_test, y_train, y_test = data_loader.prepare_data()
+                                       ~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "d:\Code\Spam_Classification\data_loader.py", line 157, in prepare_data
+    X_train, X_test, y_train, y_test = train_test_split(
+                                       ~~~~~~~~~~~~~~~~^
+        X, y,
+        ^^^^^
+    ...<2 lines>...
+        stratify=y  # Maintain class distribution
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\KIIT\AppData\Local\Programs\Python\Python313\Lib\site-packages\sklearn\utils\_param_validation.py", line 216, in wrapper
+    return func(*args, **kwargs)
+  File "C:\Users\KIIT\AppData\Local\Programs\Python\Python313\Lib\site-packages\sklearn\model_selection\_split.py", line 2872, in train_test_split
+    train, test = next(cv.split(X=arrays[0], y=stratify))
+                  ~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\KIIT\AppData\Local\Programs\Python\Python313\Lib\site-packages\sklearn\model_selection\_split.py", line 1909, in split
+    for train, test in self._iter_indices(X, y, groups):
+                       ~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^
+  File "C:\Users\KIIT\AppData\Local\Programs\Python\Python313\Lib\site-packages\sklearn\model_selection\_split.py", line 2318, in _iter_indices
+    raise ValueError(
+    ...<4 lines>...
+    )
+ValueError: The least populated class in y has only 1 member, which is too few. The minimum number of groups for any class cannot be less than 2.
+2025-09-21 15:25:32,240 - __main__ - INFO - Starting Spam Email Classification Pipeline
+2025-09-21 15:25:32,240 - __main__ - INFO - Step 1: Loading and preprocessing data...
+2025-09-21 15:25:33,146 - __main__ - ERROR - Pipeline failed: The least populated class in y has only 1 member, which is too few. The minimum number of groups for any class cannot be less than 2.
+Traceback (most recent call last):
+  File "d:\Code\Spam_Classification\main.py", line 144, in main
+    X_train, X_test, y_train, y_test = data_loader.prepare_data()
+                                       ~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "d:\Code\Spam_Classification\data_loader.py", line 157, in prepare_data
+    X_train, X_test, y_train, y_test = train_test_split(
+                                       ~~~~~~~~~~~~~~~~^
+        X, y,
+        ^^^^^
+    ...<2 lines>...
+        stratify=y  # Maintain class distribution
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\KIIT\AppData\Local\Programs\Python\Python313\Lib\site-packages\sklearn\utils\_param_validation.py", line 216, in wrapper
+    return func(*args, **kwargs)
+  File "C:\Users\KIIT\AppData\Local\Programs\Python\Python313\Lib\site-packages\sklearn\model_selection\_split.py", line 2872, in train_test_split
+    train, test = next(cv.split(X=arrays[0], y=stratify))
+                  ~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\KIIT\AppData\Local\Programs\Python\Python313\Lib\site-packages\sklearn\model_selection\_split.py", line 1909, in split
+    for train, test in self._iter_indices(X, y, groups):
+                       ~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^
+  File "C:\Users\KIIT\AppData\Local\Programs\Python\Python313\Lib\site-packages\sklearn\model_selection\_split.py", line 2318, in _iter_indices
+    raise ValueError(
+    ...<4 lines>...
+    )
+ValueError: The least populated class in y has only 1 member, which is too few. The minimum number of groups for any class cannot be less than 2.
+2025-09-21 15:26:15,768 - __main__ - INFO - Starting Spam Email Classification Pipeline
+2025-09-21 15:26:15,769 - __main__ - INFO - Step 1: Loading and preprocessing data...
+2025-09-21 15:26:16,804 - __main__ - ERROR - Pipeline failed: The least populated class in y has only 1 member, which is too few. The minimum number of groups for any class cannot be less than 2.
+Traceback (most recent call last):
+  File "d:\Code\Spam_Classification\main.py", line 144, in main
+    X_train, X_test, y_train, y_test = data_loader.prepare_data()
+                                       ~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "d:\Code\Spam_Classification\data_loader.py", line 157, in prepare_data
+    X_train, X_test, y_train, y_test = train_test_split(
+                                       ~~~~~~~~~~~~~~~~^
+        X, y,
+        ^^^^^
+    ...<2 lines>...
+        stratify=y  # Maintain class distribution
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\KIIT\AppData\Local\Programs\Python\Python313\Lib\site-packages\sklearn\utils\_param_validation.py", line 216, in wrapper
+    return func(*args, **kwargs)
+  File "C:\Users\KIIT\AppData\Local\Programs\Python\Python313\Lib\site-packages\sklearn\model_selection\_split.py", line 2872, in train_test_split
+    train, test = next(cv.split(X=arrays[0], y=stratify))
+                  ~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\KIIT\AppData\Local\Programs\Python\Python313\Lib\site-packages\sklearn\model_selection\_split.py", line 1909, in split
+    for train, test in self._iter_indices(X, y, groups):
+                       ~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^
+  File "C:\Users\KIIT\AppData\Local\Programs\Python\Python313\Lib\site-packages\sklearn\model_selection\_split.py", line 2318, in _iter_indices
+    raise ValueError(
+    ...<4 lines>...
+    )
+ValueError: The least populated class in y has only 1 member, which is too few. The minimum number of groups for any class cannot be less than 2.
+2025-09-21 15:28:24,640 - __main__ - INFO - Starting Spam Email Classification Pipeline
+2025-09-21 15:28:24,640 - __main__ - INFO - Step 1: Loading and preprocessing data...
+2025-09-21 15:28:25,542 - __main__ - ERROR - Pipeline failed: The least populated class in y has only 1 member, which is too few. The minimum number of groups for any class cannot be less than 2.
+Traceback (most recent call last):
+  File "d:\Code\Spam_Classification\main.py", line 160, in main
+    X_train, X_test, y_train, y_test = data_loader.prepare_data()
+                                       ~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "d:\Code\Spam_Classification\data_loader.py", line 157, in prepare_data
+    X_train, X_test, y_train, y_test = train_test_split(
+                                       ~~~~~~~~~~~~~~~~^
+        X, y,
+        ^^^^^
+    ...<2 lines>...
+        stratify=y  # Maintain class distribution
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\KIIT\AppData\Local\Programs\Python\Python313\Lib\site-packages\sklearn\utils\_param_validation.py", line 216, in wrapper
+    return func(*args, **kwargs)
+  File "C:\Users\KIIT\AppData\Local\Programs\Python\Python313\Lib\site-packages\sklearn\model_selection\_split.py", line 2872, in train_test_split
+    train, test = next(cv.split(X=arrays[0], y=stratify))
+                  ~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\KIIT\AppData\Local\Programs\Python\Python313\Lib\site-packages\sklearn\model_selection\_split.py", line 1909, in split
+    for train, test in self._iter_indices(X, y, groups):
+                       ~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^
+  File "C:\Users\KIIT\AppData\Local\Programs\Python\Python313\Lib\site-packages\sklearn\model_selection\_split.py", line 2318, in _iter_indices
+    raise ValueError(
+    ...<4 lines>...
+    )
+ValueError: The least populated class in y has only 1 member, which is too few. The minimum number of groups for any class cannot be less than 2.
+2025-09-21 15:36:30,375 - __main__ - INFO - Starting Spam Email Classification Pipeline
+2025-09-21 15:36:30,375 - __main__ - INFO - Step 1: Loading and preprocessing data...
+2025-09-21 15:36:31,456 - __main__ - ERROR - Pipeline failed: The least populated class in y has only 1 member, which is too few. The minimum number of groups for any class cannot be less than 2.
+Traceback (most recent call last):
+  File "d:\Code\Spam_Classification\main.py", line 160, in main
+    X_train, X_test, y_train, y_test = data_loader.prepare_data()
+                                       ~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "d:\Code\Spam_Classification\data_loader.py", line 157, in prepare_data
+    X_train, X_test, y_train, y_test = train_test_split(
+                                       ~~~~~~~~~~~~~~~~^
+        X, y,
+        ^^^^^
+    ...<2 lines>...
+        stratify=y  # Maintain class distribution
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\KIIT\AppData\Local\Programs\Python\Python313\Lib\site-packages\sklearn\utils\_param_validation.py", line 216, in wrapper
+    return func(*args, **kwargs)
+  File "C:\Users\KIIT\AppData\Local\Programs\Python\Python313\Lib\site-packages\sklearn\model_selection\_split.py", line 2872, in train_test_split
+    train, test = next(cv.split(X=arrays[0], y=stratify))
+                  ~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\KIIT\AppData\Local\Programs\Python\Python313\Lib\site-packages\sklearn\model_selection\_split.py", line 1909, in split
+    for train, test in self._iter_indices(X, y, groups):
+                       ~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^
+  File "C:\Users\KIIT\AppData\Local\Programs\Python\Python313\Lib\site-packages\sklearn\model_selection\_split.py", line 2318, in _iter_indices
+    raise ValueError(
+    ...<4 lines>...
+    )
+ValueError: The least populated class in y has only 1 member, which is too few. The minimum number of groups for any class cannot be less than 2.
